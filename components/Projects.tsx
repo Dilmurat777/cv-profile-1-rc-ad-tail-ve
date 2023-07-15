@@ -62,7 +62,7 @@ const Projects = () => {
                 </a>
                 <a
                   className='hover:text-textGreen duration-300'
-                  href='#'
+                  href='https://thriving-cactus-729e82.netlify.app/'
                   target='_blank'
                 >
                   <RxOpenInNewWindow />
@@ -123,7 +123,7 @@ const Projects = () => {
                 </a>
                 <a
                   className='hover:text-textGreen duration-300'
-                  href='#'
+                  href='https://makers-curses.vercel.app/'
                   target='_blank'
                 >
                   <RxOpenInNewWindow />
@@ -155,7 +155,7 @@ const Projects = () => {
               <p className='font-titleFont text-textGreen text-sm tracking-wide'>
                 Fuatured Project
               </p>
-              <h3 className='text-2xl font-bold'>Amazon Clone 2.0</h3>
+              <h3 className='text-2xl font-bold'>Ticket KG</h3>
               <p className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md'>
               This is site clone Ticket kg build with my team on hackathon. Site for selling tickets cinema, theater and e.g
                 <span className='text-textGreen'></span>
@@ -185,7 +185,7 @@ const Projects = () => {
                 </a>
                 <a
                   className='hover:text-textGreen duration-300'
-                  href='#'
+                  href='https://main--ticket-kg.netlify.app/'
                   target='_blank'
                 >
                   <RxOpenInNewWindow />
