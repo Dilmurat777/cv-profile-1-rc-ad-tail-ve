@@ -26,13 +26,8 @@ const About = () => {
             that truly resonates with my interests and aspirations.
           </p>
           <p>
-            In 2020, I discovered my interest in front-end development and
-            embarked on a self-learning journey to master HTML and CSS. As I
-            created my first website, I experienced a profound realization that
-            I had found my true calling. This reminded me of Albert Schweitzer's
-            quote, "Success is not the key to happiness. Happiness is the key to
-            success. If you love what you are doing, you will be successful."
-          </p>
+            In 2020, I discovered my interest in front-end development and embarked on a self-learning journey to master HTML and CSS. As I created my first website, I experienced a profound realization that I had found my true calling. This reminded me of <span>Albert Schweitzer,s quote</span>, 
+          </p> <span>(Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful.)</span>
          {
            showMore && (
              <div className='flex flex-col gap-3'>
