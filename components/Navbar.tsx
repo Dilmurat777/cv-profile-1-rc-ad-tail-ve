@@ -35,8 +35,8 @@ const Navbar = () => {
 
 
   function handleClick(e: any) {
-    if(e.target.contain(ref.current)) {
-      setShowMenu(false)
+    if (ref.current && !ref.current.contains(e.target)) {
+      setShowMenu(false);
     }
   }
 
@@ -224,7 +224,8 @@ const Navbar = () => {
                     </motion.li>
                   </Link>
                 </ul>
-                <motion.button
+               <a href='assets/Dilmurat-cv-2023.pdf' target='_blank'>
+               <motion.button
                   initial={{ opacity: 0 }}
                   animate={{ opacity: 1 }}
                   transition={{ delay: 0.6 }}
@@ -232,29 +233,30 @@ const Navbar = () => {
                 >
                   Resume
                 </motion.button>
+               </a>
               </div>
                 <div className='flex gap-3 mt-5'>
-                  <a href='#'>
+                  <a href='https://github.com/Dilmurat777' target='_blank'>
                     <span className='w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
                       <TbBrandGithub />
                     </span>
                   </a>
-                  <a href='#'>
+                  {/* <a href='#' target='_blank'>
                     <span className='w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
                       <SlSocialYoutube />
                     </span>
-                  </a>
-                  <a href='#'>
+                  </a> */}
+                  <a href='https://www.linkedin.com/in/mrdilmurat-idrisov/' target='_blank'>
                     <span className='w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
                       <SlSocialLinkedin />
                     </span>
                   </a>
-                  <a href='#'>
+                  <a href='https://www.facebook.com/dilmurat.idrisov' target='_blank'>
                     <span className='w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
                       <SlSocialFacebook />
                     </span>
                   </a>
-                  <a href='#'>
+                  <a href='https://www.instagram.com/dilmuratdmx777/' target='_blank'>
                     <span className='w-10 h-10 text-xl bg-bodyColor border-[1px] border-zinc-700 hover:border-textGreen text-zinc-200 rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300'>
                       <SlSocialInstagram />
                     </span>
