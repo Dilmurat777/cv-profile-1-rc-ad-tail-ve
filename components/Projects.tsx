@@ -1,4 +1,4 @@
-import { clinic, makers, ticket } from '@/public/assets'
+import { faject, makers, ticket } from '@/public/assets'
 import SectionTitle from './SectionTitle'
 import Image from 'next/image'
 import { AiFillGithub, AiOutlineYoutube } from 'react-icons/ai'
@@ -9,18 +9,20 @@ const Projects = () => {
     <section id='projects' className='max-w-container mx-auto lgl:px-20 py-24'>
       <SectionTitle title='Some Things I have Built' titleNo='03' />
       <div className='w-full flex flex-col items-center justify-between gap-28 mt-10'>
-        {/* Clinic DR-Bahtiyar */}
+        
+        {/* faject-project */}
+
         <div className='w-full flex flex-col items-center justify-center gap-28 mt-10'>
           <div className='flex flex-col xl:flex-row gap-6'>
             <a
               className='w-full xl:w-1/2 h-auto relative group'
-              href='https://thriving-cactus-729e82.netlify.app/'
+              href='https://faject-project.vercel.app/'
               target='_blank'
             >
               <div>
                 <Image
                   className='w-full h-full object-contain'
-                  src={clinic}
+                  src={faject}
                   alt='Image'
                   priority={true}
                 />
@@ -30,18 +32,18 @@ const Projects = () => {
               <p className='font-titleFont text-textGreen text-sm tracking-wide'>
                 Fuatured Project
               </p>
-              <h3 className='text-2xl font-bold'>Dental Clinic</h3>
+              <h3 className='text-2xl font-bold'>Fuject Project</h3>
               <p className='bg-[#112240] text-sm md:text-base p-2 md:p-6 rounded-md'>
-                Dental-clinic with beautiful design site, There are yandex map,
-                social media, gallery. Also have Adaptive Design for different
-                devices.
+                Faject-project with beautiful design site, There are i118n,
+                social media and gallery. Also have Adaptive Design for different
+                devices. In addition added beautiful effects.
                 <span className='text-textGreen'></span>
                 <span className='text-textGreen'></span>
               </p>
               <ul className='text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textDark'>
                 <li>React.js</li>
                 <li>HTML</li>
-                <li>CSS</li>
+                <li>SCSS</li>
                 <li>JavaScript</li>
                 <li>Versal Deployment</li>
               </ul>
@@ -62,7 +64,7 @@ const Projects = () => {
                 </a>
                 <a
                   className='hover:text-textGreen duration-300'
-                  href='https://thriving-cactus-729e82.netlify.app/'
+                  href='https://faject-project.vercel.app/'
                   target='_blank'
                 >
                   <RxOpenInNewWindow />
@@ -71,6 +73,8 @@ const Projects = () => {
             </div>
           </div>
         </div>
+
+        {/* makers-curses */}
 
         <div className='w-full flex flex-col items-center justify-center gap-28 mt-10'>
           <div className='flex flex-col xl:flex-row-reverse gap-6'>

@@ -17,10 +17,12 @@ const Archive = () => {
       </div>
       <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10'>
         <ArchiveCard
-          title='Education English Learning Academy'
-          des='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam delectus expedita aliquid sint, ratione laborum soluta repudiandae aliquam eligendi!'
-          listItem={['Reactjs', 'Tailwind CSS', 'getform.io']}
-          link='#'
+          title='Dr. Bahtiyar Clinic'
+          des='Dr. Bahtiyar Clinic with beautiful design site, There are yandex map,
+          social media and gallery. Also have Adaptive Design for different
+          devices.'
+          listItem={['Reactjs', 'CSS', 'Versal Deployment']}
+          link='https://thriving-cactus-729e82.netlify.app/'
         />
         <ArchiveCard
           title='Education English Learning Academy'
